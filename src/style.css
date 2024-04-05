@@ -24,7 +24,7 @@
   height: 50vh;
   display: flex;
   align-items: center;
-  justify-content: centerx;
+  justify-content: center;
 }
 .fndimg{
   max-height: 20vh;
