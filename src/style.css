@@ -13,7 +13,7 @@
     padding: 10px;
 }  
 .sec2{
-  background-color: rgb(249, 249, 142);
+    background-color: rgb(245, 245, 172);
   
   text-align: center;
 }
@@ -21,8 +21,23 @@
   height: 20vh;
 }
 .meetem{
-  height: 80vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: centerx;
+}
+.fndimg{
+  max-height: 20vh;
+}
+.sec3{
+  background-color: rgb(249, 227, 142);
+  height: 20vh;
+}
+.sec4{
+  background-color: rgb(245, 245, 172);
+height: 20vh;
+}
+.sec5{
+  background-color: rgb(249, 227, 142);
+  height: 20vh;
 }
