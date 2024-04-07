@@ -39,11 +39,11 @@
 }
 .sec4 {
   background-color: rgb(245, 245, 172);
-  height: 20vh;
+  height: max-content;
 }
 .sec5 {
   background-color: rgb(249, 227, 142);
-  height: 20vh;
+  height: max-content;
 }
 .nvbr {
   font-size: 20px;
