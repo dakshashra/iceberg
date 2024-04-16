@@ -8,6 +8,12 @@
   padding: 10px;
   font-size: 25px;
 }
+.charmonman-regular {
+  font-family: "Charmonman", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .sec2 {
   background-color: rgb(249, 227, 142);
   height: max-content;
