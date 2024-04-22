@@ -17,7 +17,9 @@
   height: max-content;
   text-align: center;
 }
-
+* {
+  font-size: 12pt;
+}
 .meetem {
   height: max-content;
   display: flex;
@@ -51,7 +53,7 @@
   font-size: 23px;
 }
 .heading {
-  font-size: 20px;
+  font-size: 14pt;
   padding: 5%;
   color: rgb(39, 27, 4);
   font-weight: 800;
