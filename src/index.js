@@ -8,6 +8,14 @@ document
  * @popperjs/core v2.9.2 - MIT License
  */
 let mybutton = document.getElementById("btn-back-to-top");
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.getElementById("navtoggler");
+  const image = document.getElementById("centerlogo");
+
+  button.addEventListener("click", function () {
+    image.classList.toggle("hidden");
+  });
+});
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {

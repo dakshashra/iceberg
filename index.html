@@ -60,6 +60,7 @@
                 aria-controls="navbarNavDarkDropdown"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
+                id="navtoggler"
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -171,7 +172,11 @@
           </nav>
           <div class="wrapper">
             <div class="quote">
-              <img class="img-fluid lgimg" src="./assets/images/wlnb.png" />
+              <img
+                class="img-fluid lgimg"
+                id="centerlogo"
+                src="./assets/images/wlnb.png"
+              />
             </div>
           </div>
         </div>
@@ -540,5 +545,15 @@
       </div>
     </div>
     <script src="./src/index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const button = document.getElementById("navtoggler");
+        const image = document.getElementById("centerlogo");
+
+        button.addEventListener("click", function () {
+          image.classList.toggle("hidden");
+        });
+      });
+    </script>
   </body>
 </html>
