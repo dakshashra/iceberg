@@ -35,6 +35,10 @@
   margin: 5%;
   border: 2.5px solid rgb(11, 10, 6);
 }
+.jwa {
+  max-height: 200px;
+  border: 2.5px solid rgb(11, 10, 6);
+}
 .sec3 {
   background-color: rgb(211, 215, 215);
   height: max-content;
