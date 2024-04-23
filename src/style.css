@@ -11,13 +11,12 @@
 .hidden {
   opacity: 0;
 }
-
-.lgimg {  
+.lgimg {
   max-width: 100%;
   height: auto;
 }
 .sec2 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
   text-align: center;
 }
@@ -37,24 +36,24 @@
   border: 2.5px solid rgb(11, 10, 6);
 }
 .sec3 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
   font-size: 20px;
 }
 .sec4 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
 }
 .sec5 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
 }
 .sec6 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
 }
 .sec7 {
-  background-color: #b4a395;
+  background-color: rgb(211, 215, 215);
   height: max-content;
 }
 .nvbr {
