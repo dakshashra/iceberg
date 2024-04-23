@@ -23,6 +23,9 @@
 * {
   font-size: 12pt;
 }
+.navbar-custom {
+  background-color: #b99105;
+}
 .meetem {
   height: max-content;
   display: flex;
